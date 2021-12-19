@@ -1,0 +1,163 @@
+:root {
+  --primary-color: #0a3c93;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --margin: 20px;
+  --border-radius: 4px;
+  --padding: 20px 15px;
+  --text-deco: none;
+  --small-res-font: 14px;
+  --small-res-bu-font: 8px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+body {
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+.zodiacButton {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  margin: var(--margin);
+  border-radius: var(--border-radius);
+  padding: var(--padding);
+  text-decoration: var(--text-deco);
+  max-width: 115px;
+}
+.illuButton {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  margin: var(--margin);
+  border-radius: var(--border-radius);
+  padding: var(--padding);
+  text-decoration: var(--text-deco);
+  max-width: 145px;
+}
+.weatherButton {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  margin: var(--margin);
+  border-radius: var(--border-radius);
+  padding: var(--padding);
+  text-decoration: var(--text-deco);
+  max-width: 115px;
+}
+.photographsButton {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  margin: var(--margin);
+  border-radius: var(--border-radius);
+  padding: var(--padding);
+  text-decoration: var(--text-deco);
+  max-width: 145px;
+}
+
+@media (max-width: 420px) {
+  .nameBig {
+    font-size: 30px;
+  }
+  .bioIntro {
+    font-size: 26px;
+  }
+  .contact-link {
+    font-size: var(--small-res-bu-font);
+  }
+  .about-link {
+    font-size: var(--small-res-bu-font);
+  }
+
+  .weatherButton {
+    font-size: var(--small-res-font);
+  }
+  .zodiacButton {
+    font-size: var(--small-res-font);
+  }
+  .illuButton {
+    font-size: var(--small-res-font);
+  }
+  .photographsButton {
+    font-size: var(--small-res-font);
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+  .contactSection {
+    font-size: 30px;
+  }
+  .smallRes {
+    width: 100%;
+  }
+}

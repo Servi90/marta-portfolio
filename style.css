@@ -101,8 +101,14 @@ body {
   border-radius: var(--border-radius);
   padding: var(--padding);
   text-decoration: var(--text-deco);
-  max-width: 145px;
+  max-width: 140px;
+  color: white;
 }
+.illuButton a {
+  color: white;
+  text-decoration: none;
+}
+
 .weatherButton {
   background: var(--primary-color);
   color: var(--secondary-color);
@@ -121,7 +127,7 @@ body {
   border-radius: var(--border-radius);
   padding: var(--padding);
   text-decoration: var(--text-deco);
-  max-width: 145px;
+  max-width: 140px;
 }
 
 @media (max-width: 420px) {
@@ -135,6 +141,9 @@ body {
     font-size: var(--small-res-bu-font);
   }
   .about-link {
+    font-size: var(--small-res-bu-font);
+  }
+  .illu-link {
     font-size: var(--small-res-bu-font);
   }
 

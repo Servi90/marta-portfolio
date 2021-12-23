@@ -93,6 +93,10 @@ body {
   text-decoration: var(--text-deco);
   max-width: 115px;
 }
+.zodiacButton a {
+  color: white;
+  text-decoration: none;
+}
 .illuButton {
   background: var(--primary-color);
   color: var(--secondary-color);

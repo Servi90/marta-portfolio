@@ -119,6 +119,10 @@ body {
   text-decoration: var(--text-deco);
   max-width: 115px;
 }
+.weatherButton a {
+  color: white;
+  text-decoration: none;
+}
 .photographsButton {
   background: var(--primary-color);
   color: var(--secondary-color);
@@ -128,6 +132,10 @@ body {
   padding: var(--padding);
   text-decoration: var(--text-deco);
   max-width: 140px;
+}
+.photographsButton a {
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 420px) {

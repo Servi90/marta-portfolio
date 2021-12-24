@@ -2,7 +2,7 @@
   --primary-color: #6c7175;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --margin: 20px;
+  --margin: 40px;
   --border-radius: 4px;
   --padding: 20px 15px;
   --text-deco: none;
@@ -87,7 +87,8 @@ body {
   background: var(--primary-color);
   color: var(--secondary-color);
   box-shadow: var(--box-shadow);
-  margin: var(--margin);
+  margin: auto;
+  margin-top: 40px;
   border-radius: var(--border-radius);
   padding: var(--padding);
   text-decoration: var(--text-deco);
@@ -101,7 +102,8 @@ body {
   background: var(--primary-color);
   color: var(--secondary-color);
   box-shadow: var(--box-shadow);
-  margin: var(--margin);
+  margin: auto;
+  margin-top: 40px;
   border-radius: var(--border-radius);
   padding: var(--padding);
   text-decoration: var(--text-deco);
@@ -117,7 +119,8 @@ body {
   background: var(--primary-color);
   color: var(--secondary-color);
   box-shadow: var(--box-shadow);
-  margin: var(--margin);
+  margin: auto;
+  margin-top: 40px;
   border-radius: var(--border-radius);
   padding: var(--padding);
   text-decoration: var(--text-deco);
@@ -131,7 +134,8 @@ body {
   background: var(--primary-color);
   color: var(--secondary-color);
   box-shadow: var(--box-shadow);
-  margin: var(--margin);
+  margin: auto;
+  margin-top: 40px;
   border-radius: var(--border-radius);
   padding: var(--padding);
   text-decoration: var(--text-deco);

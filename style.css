@@ -65,6 +65,9 @@ body {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+.contact-link:hover {
+  color: lightskyblue;
+}
 
 .homepage-link {
   color: var(--primary-color);
@@ -94,8 +97,8 @@ body {
   text-decoration: var(--text-deco);
   color: white;
   text-align: center;
-  margin-left: 180px;
-  margin-right: 180px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 .zodiacButton a {
   color: white;
@@ -112,8 +115,8 @@ body {
   text-decoration: var(--text-deco);
   color: white;
   text-align: center;
-  margin-left: 180px;
-  margin-right: 180px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 .illuButton a {
   color: white;
@@ -130,8 +133,8 @@ body {
   padding: var(--padding);
   text-decoration: var(--text-deco);
   text-align: center;
-  margin-left: 180px;
-  margin-right: 180px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 .weatherButton a {
   color: white;
@@ -147,15 +150,18 @@ body {
   padding: var(--padding);
   text-decoration: var(--text-deco);
   text-align: center;
-  margin-left: 180px;
-  margin-right: 180px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 .photographsButton a {
   color: white;
   text-decoration: none;
 }
+.content-link:hover {
+  color: lightskyblue;
+}
 
-@media (max-width: 420px) {
+@media (max-width: 800px) {
   .nameBig {
     font-size: 30px;
   }
@@ -174,15 +180,23 @@ body {
 
   .weatherButton {
     font-size: var(--small-res-font);
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .zodiacButton {
     font-size: var(--small-res-font);
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .illuButton {
     font-size: var(--small-res-font);
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .photographsButton {
     font-size: var(--small-res-font);
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .email-link {

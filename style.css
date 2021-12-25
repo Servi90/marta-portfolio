@@ -160,9 +160,10 @@ body {
 .content-link:hover {
   color: lightskyblue;
 }
-.but {
-  width: 75% !important;
+.lets {
+  font-size: 54px;
 }
+
 @media (max-width: 800px) {
   .nameBig {
     font-size: 30px;

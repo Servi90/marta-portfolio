@@ -92,7 +92,10 @@ body {
   border-radius: var(--border-radius);
   padding: var(--padding);
   text-decoration: var(--text-deco);
-  max-width: 115px;
+  color: white;
+  text-align: center;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 .zodiacButton a {
   color: white;
@@ -107,8 +110,10 @@ body {
   border-radius: var(--border-radius);
   padding: var(--padding);
   text-decoration: var(--text-deco);
-  max-width: 140px;
   color: white;
+  text-align: center;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 .illuButton a {
   color: white;
@@ -124,7 +129,9 @@ body {
   border-radius: var(--border-radius);
   padding: var(--padding);
   text-decoration: var(--text-deco);
-  max-width: 115px;
+  text-align: center;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 .weatherButton a {
   color: white;
@@ -139,7 +146,9 @@ body {
   border-radius: var(--border-radius);
   padding: var(--padding);
   text-decoration: var(--text-deco);
-  max-width: 140px;
+  text-align: center;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 .photographsButton a {
   color: white;
